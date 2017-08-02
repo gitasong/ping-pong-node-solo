@@ -1,0 +1,16 @@
+{
+  "name": "ping-pong-node",
+  "version": "1.0.0",
+  "description": "Simple Node.js app. The user enters a number, then the app counts up to that number, substituting 'ping' for numbers divisible by 3, 'pong' for numbers divisible ty 5, and 'ping-pong' for numbers divisible by both 3 and 5 (i.e. 15).",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Nicole Freed",
+  "license": "ISC",
+  "devDependencies": {
+    "browserify": "^14.4.0",
+    "gulp": "^3.9.1",
+    "vinyl-source-stream": "^1.1.0"
+  }
+}
